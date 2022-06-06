@@ -18,3 +18,25 @@
 输出: 3
 解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
      请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+     
+     
+     
+     给定字符串 s 和 t ，判断 s 是否为 t 的子序列。
+
+字符串的一个子序列是原始字符串删除一些（也可以不删除）字符而不改变剩余字符相对位置形成的新字符串。（例如，"ace"是"abcde"的一个子序列，而"aec"不是）。
+
+
+示例 1：
+
+输入：s = "abc", t = "ahbgdc"
+输出：true
+示例 2：
+
+输入：s = "axc", t = "ahbgdc"
+输出：false
+class Solution {
+public:
+    bool isSubsequence(string s, string t) {
+
+    }
+};
